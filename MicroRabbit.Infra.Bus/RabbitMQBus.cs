@@ -34,7 +34,7 @@ public sealed class RabbitMQBus : IEventBus
         using var connection = factory.CreateConnection();
         using var channel = connection.CreateModel();
         
-        var eventName = _eventTypes.GetType().Name;
+        var eventName = @event.GetType().Name;
         
         channel.QueueDeclare(eventName, false, false, false, null);
         

@@ -3,6 +3,7 @@
   <component name="EfCoreDialogsState">
     <option name="keyValueStorage">
       <map>
+        <entry key="Common:78021a70-990d-4ad6-b899-45d99d36c541:dbContext" value="MicroRabbit.Transfer.Data.Context.TransferDbContext" />
         <entry key="Common:buildConfiguration" value="Debug" />
         <entry key="Common:d95d5c39-ebdc-4605-b89e-4ecb07dcc7bb:dbContext" value="MicroRabbit.Banking.Data.Contexts.BankingDbContext" />
         <entry key="Common:noBuild" value="false" />
